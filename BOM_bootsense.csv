@@ -1,0 +1,18 @@
+Component,Description,Quantity,Estimated Unit Cost (USD),Source,Notes
+Arduino MKR WiFi 1010,SAMD21 microcontroller with WiFi; 3.3V logic,1,$35.00,Arduino Store / Amazon,Do NOT power HX711 from 5V pin — use 3.3V only
+HX711 Breakout Board,24-bit instrumentation amplifier for load cells,1,$4.00–$8.00,Amazon,Replace if intermittent — faulty modules are common; buy 2
+Strain Gauge Load Cell (50kg),Single-point load cell; Wheatstone bridge output,2,$6.00–$12.00 each,Amazon,"Mounted under boot frame, heel and forefoot positions"
+Coin Vibration Motor,3V–5V pancake vibration motor,1,$2.00–$4.00,Amazon,Drive through transistor or motor driver — do not connect directly to GPIO
+NPN Transistor (e.g. 2N2222 or BC547),Motor driver for vibration motor,1,$0.10–$0.50,Amazon / local electronics,Needed to safely switch motor current from GPIO pin
+LED (any color),Status indicator; mirrors vibrator for visual debug,1,$0.10–$0.50,Amazon / local electronics,Use red or green for visibility through boot
+Resistor 220Ω,Current-limiting resistor for LED,1,$0.05,Amazon / local electronics,1/4W is fine
+Resistor 10kΩ,Pull-down or base resistor for transistor circuit,1,$0.05,Amazon / local electronics,
+Rechargeable Battery Pack / Li-ion Cell,Portable power supply for Arduino,1,$10.00–$20.00,Amazon,"USB power banks cause instability — prefer dedicated Li-ion with LDO regulator at 3.3V (future improvement)"
+Breadboard (half-size),Prototyping board for wiring connections,1,$4.00–$8.00,Amazon,Replace with custom PCB in future version
+Jumper Wires (assorted),M-M and M-F wires for breadboard connections,1 pack,$5.00–$8.00,Amazon,Strain-relieve wires inside boot to prevent fatigue breaks
+Walking Boot (CAM boot),Standard orthopedic controlled ankle motion boot,1,$30.00–$60.00,Amazon / medical supply,Any rigid-shell CAM boot; load cells mount under frame
+Hook-and-loop (Velcro) tape,Securing electronics and wiring to boot exterior,1 roll,$5.00,Amazon,Temporary fix — embedded housing planned for future version
+Electrical tape / heat shrink tubing,Insulation and strain relief for solder joints,1 pack,$4.00–$6.00,Amazon / hardware store,
+Solder + soldering iron,For permanent connections to load cell wires and terminals,—,Tooling only,—,Flux-core solder recommended for small joints
+,,,,, 
+TOTAL ESTIMATED BOM COST,,~$120–$175 (prototype),,,Does not include tooling; well within $250 target price
