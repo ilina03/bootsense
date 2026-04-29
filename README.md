@@ -106,9 +106,9 @@ const unsigned long HOLD_MS = 300; // ms sustained above threshold to trigger
 | %BW calibration | ✅ Predictable linear scaling across trials |
 | Alert activation at 30% BW | ✅ Consistent, no false triggers |
 | Hysteresis (off at 20% BW) | ✅ No flicker observed |
+| Vibration alert during walking | ✅ Confirmed — vibrator triggers when weight limit exceeded mid-gait |
 | Independent heel/forefoot sensing | ❌ Single HX711 channel — combined signal only |
 | Embedded/wearable electronics | ❌ External prototype only |
-| Gait (walking) testing | ❌ Not performed — electronics not yet embedded |
 
 ---
 
@@ -118,8 +118,8 @@ const unsigned long HOLD_MS = 300; // ms sustained above threshold to trigger
 - [ ] **Embedded electronics** — integrate PCB and battery into boot shell
 - [ ] **Dedicated power supply** — Li-ion + 3.3V LDO regulator (USB power banks are unreliable)
 - [ ] **Clinician interface** — keypad, Bluetooth app, or PC utility to adjust thresholds without editing firmware
-- [ ] **Gait testing** — walking trials once electronics are safely embedded
-- [ ] **Clinical validation** — real-world accuracy and usability studies
+- [ ] **Clinical validation** — verify safety, accuracy, and usability in real rehab settings
+- [x] **Gait testing** — ✅ completed, vibration alert confirmed during walking
 
 ---
 
