@@ -8,6 +8,7 @@ This folder contains hardware documentation for the Boot Sense prototype.
 |---|---|
 | `BOM_bootsense.csv` | Bill of materials with component specs, costs, and sources |
 | `wiring_diagram.svg` | Schematic showing all electrical connections |
+| `datasheets/` | Component spec sheets (HX711, load cells, Arduino MKR, vibrator) |
 | `photos/` | Prototype photos — add yours here (see below) |
 
 ---

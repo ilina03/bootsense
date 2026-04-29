@@ -136,7 +136,9 @@ bootsense/
 ├── hardware/
 │   ├── wiring_diagram.svg
 │   ├── HARDWARE.md
-│   └── BOM_bootsense.csv
+│   ├── BOM_bootsense.csv
+│   ├── datasheets/         # Component spec sheets
+│   └── photos/             # Prototype photos
 └── README.md
 ```
 
